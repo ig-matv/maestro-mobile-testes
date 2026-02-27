@@ -29,6 +29,11 @@ O fluxo executado pelo teste é:
 - Android
 
 ---
+## Demonstração
+
+A execução da automação pode ser visualizada no GIF disponível no repositório:
+
+[Ver demonstração da automação](media/Automação-ankidroid.gif)
 
 ## Objetivo
 
