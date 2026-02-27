@@ -1,0 +1,44 @@
+appId: com.ichi2.anki
+---
+- launchApp
+- tapOn:
+    id: fab_main
+
+- tapOn:
+    id: fab_main
+
+- tapOn: Default
+- tapOn: Add
+- tapOn:
+    id: dialog_text_input
+- inputText: Deck de Teste 2
+- tapOn: OK
+
+- tapOn:
+    text: front
+    index: 1
+- inputText: Teste maestro
+
+- tapOn:
+    text: back
+    index: 1
+- inputText: Teste maestro 1
+
+- tapOn: Save
+- tapOn: Navigate up
+- assertVisible: Deck de Teste 2
+
+
+- tapOn: 
+   id: Deck_name_linear_layout
+- tapOn:
+   id: flashcard_layout_flip
+
+- tapOn: 
+   id: flashcard_layout_ease3
+
+- tapOn:
+   id: flashcard_layout_flip
+
+- tapOn: 
+   id: flashcard_layout_ease3
